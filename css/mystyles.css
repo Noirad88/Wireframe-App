@@ -1,0 +1,165 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  background-color: #0c0e0e;
+  color: #c9c7d1;
+  user-select: none; }
+
+/* apply font families here */
+html, button, input, select, textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.pure-g > div {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.ms-container {
+  padding: 30px;
+  font-size: 1.25em;
+  background-color: #181b1b;
+  -webkit-transition: background 50ms ease-out;
+  -moz-transition: background 50ms ease-out;
+  -o-transition: background 50ms ease-out;
+  transition: background 50ms ease-out;
+  outline-offset: -1px;
+  user-select: none; }
+
+.ms-container:hover {
+  background-color: #303636;
+  outline-width: 1px;
+  outline-style: dashed;
+  outline-color: #c9cfcf;
+  cursor: move; }
+
+.bg-img {
+  outline-style: solid;
+  background: url("data:image/svg+xml;utf8, <svg viewBox='0 0 196 196' preserveAspectRatio='none' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><path d='M-1.5,-1.5 L196.5,196.5' id='Line' stroke='#303636' stroke-width='1' vector-effect='non-scaling-stroke' stroke-linecap='square' /><path d='M197.5,-1.5 L-0.5,196.5' id='Line' stroke='#303636' vector-effect='non-scaling-stroke' stroke-linecap='square' /></svg>");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #242929;
+  background-size: 100% 100%, auto;
+  outline-color: #303636;
+  outline-width: 1px; }
+
+.ms-main-container {
+  padding: 30px 20px;
+  font-size: 1.25em;
+  background-color: #ffcccc; }
+
+.ms-circle-avatar {
+  border-radius: 100%;
+  width: auto;
+  height: auto; }
+
+.ms-menu-bar {
+  background-color: #000000;
+  position: fixed;
+  color: #FFFFFF;
+  z-index: 2;
+  padding: 10px 20px;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #303636; }
+
+.ms-canvas {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 67px;
+  height: 100%;
+  z-index: 0;
+  background-color: #181b1b; }
+
+.ms-grid {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  pointer-events: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+.ms-grid-column {
+  height: 100%;
+  opacity: 0.07;
+  border-width: 1px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  background-color: transparent; }
+
+.ms-button {
+  width: 120px;
+  min-height: 15px;
+  background-color: #788787;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px;
+  color: #000000;
+  text-align: center;
+  border-radius: 2px; }
+
+.ms-grid-column:last-child {
+  border-right-width: 1px; }
+
+/* text styles */
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
+  color: #aeb7b7; }
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #aeb7b7; }
+
+p {
+  font-size: 16px;
+  line-height: 1.9em;
+  color: #788787; }
+
+h1:hover, h2:hover, p:hover {
+  background-color: #303636;
+  outline-width: 1px;
+  outline-style: dashed;
+  outline-color: #c9cfcf;
+  cursor: move; }
+
+.logo > p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px; }
+
+/* states */
+#selected {
+  position: relative;
+  cursor: move; }
+
+/* media queries */
+@media screen and (min-width: 35.5em) {
+  /* ≥ 568px */
+  .ms-canvas, .ms-grid {
+    width: 100%; } }
+@media screen and (min-width: 48em) {
+  /* ≥ 768px */
+  .ms-canvas, .ms-grid {
+    width: 768px; } }
+@media screen and (min-width: 64em) {
+  /* ≥ 1024px */
+  .ms-canvas, .ms-grid {
+    width: 1024px; } }
+@media screen and (min-width: 80em) {
+  /* ≥ 1280px */
+  .ms-canvas, .ms-grid {
+    width: 1280px; } }
+
+/*# sourceMappingURL=mystyles.css.map */

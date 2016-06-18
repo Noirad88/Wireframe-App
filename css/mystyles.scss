@@ -1,0 +1,142 @@
+$bg-color: #18171c;
+$primary-color: #18171c;
+$secondary-color: #18171c;
+$third-color: #18171c;
+
+body{
+	margin:0px;
+	background-color:$bg-color;
+	color:#c9c7d1;}
+
+/* apply font families here */
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+}
+
+.pure-g > div {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+.ms-container{
+	padding:15px;
+	font-size:1.25em;
+	background-color:#302e38;
+	-webkit-transition: background 50ms ease-out;
+    -moz-transition: background 50ms ease-out;
+    -o-transition: background 50ms ease-out;
+    transition:  background 50ms ease-out;
+}
+
+.ms-container:hover{
+	background-color:#3c3946;
+}
+
+.ms-main-container{
+	padding:30px 20px;
+	font-size:1.25em;
+	background-color:#ffcccc;
+}
+
+.ms-circle-avatar{
+	border-radius:100%;
+	width:auto;
+	height:auto;
+}
+
+.ms-menu-bar{
+	background-color:#000000;
+	position:absolute;
+	color:#FFFFFF;
+	padding:10px 20px;
+}
+
+.ms-canvas{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:70px;
+	height:100%;
+	background-color: #24222a;
+}
+
+.ms-grid{
+	position:fixed;
+	height:100%;
+	pointer-events:none;
+}
+
+.ms-grid-column{
+	height:100%;
+	opacity:0.1;
+	border-width:1px;
+	border-color:#FFFFFF;
+	border-style:solid;
+	border-top-width:0;
+	border-right-width:0;
+	border-bottom-width:0;
+	background-color:transparent;
+}
+
+.ms-grid-column:last-child{
+	border-right-width:1px;
+}
+
+/* text styles */
+
+h1{
+	font-size:20px;
+	font-weight:300;
+	line-height:28px;
+}
+
+p{
+	font-size:16px;
+	line-height:22px;
+}
+
+.logo > p{
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-size:13px;
+}
+
+/* media queries */
+
+@media screen and (min-width: 35.5em){
+
+	/* ≥ 568px */
+		.ms-canvas, .ms-grid{
+		width:568px;
+	}
+}
+
+@media screen and (min-width: 48em){
+
+	/* ≥ 768px */
+		.ms-canvas, .ms-grid{
+		width:768px;
+	}
+}
+
+@media screen and (min-width: 64em){
+	/* ≥ 1024px */
+	.ms-canvas, .ms-grid{
+		width:1024px;
+	}
+}
+
+@media screen and (min-width: 80em){
+	/* ≥ 1280px */
+	.ms-canvas, .ms-grid{
+		width:1280px;
+	}
+}
+
+
+
+
